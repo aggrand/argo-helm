@@ -56,6 +56,9 @@ controller:
     # limit: 10
     # burst: 1
 
+  # -- Whether to create roles and role bindings at all.
+  createRoles: true
+
   # -- Limits the maximum number of incomplete workflows in a namespace
   namespaceParallelism:
   # -- Resolves ongoing, uncommon AWS EKS bug: https://github.com/argoproj/argo-workflows/pull/4224
